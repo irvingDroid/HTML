@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Football</title>
+</head>
+<body>
+    <h1> REGISTRO DE JUGADORES </h1>
+    <table>
+        <tr>
+          <th><label for = "Input1"> Nombre: </label></th>
+          <th><input type = "text" id = "Input1" name = "Input1"></th>
+          <th><label for = "Input2"> Apellido Paterno: </label></th>
+          <th><input type = "text" id = "Input2" name = "Input2"></th>
+          <th><label for = "Input3"> Apellido Materno: </label></th>
+          <th><input type = "text" id = "Input3" name = "Input3"></th>
+        </tr>
+        <tr>
+          <td><label for = "Input4"> Edad: </label></td>
+          <td><input type = "number" id = "Input4" name = "Input4"></td>
+          <td><label for = "Input5"> Estatura: </label></td>
+          <td><input type = "number" id = "Input5" name = "Input5"></td>
+          <td><label for = "Input6"> Peso(kg): </label></td>
+          <td><input type = "number" id = "Input6" name = "Input6"></td>
+        </tr>
+        <tr>
+          <td><label for = "Input7"> Universidad: </label></td>
+          <td>
+            <select id="universidad" name="Universidad">
+              <option value = "UNAM"> UNAM </option>
+              <option value = "UNAM"> FES Acatlán </option>
+              <option value = "UNAM"> UAEM</option>
+              <option value = "UNAM"> TEC Monterrey </option>
+            </select>
+          </td>
+          <td><label for = "Input8"> Equipo: </label></td>
+          <td>
+            <select id="equipo" name="equipo">
+              <option value = "pumas CU"> Pumas CU </option>
+              <option value = "pumas Acatlan"> Pumas Acatlán </option>
+              <option value = "potros salvajes"> Potros Salvajes </option>
+              <option value = "borregos salvajes"> Borregos Salvajes </option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for = "Input9"> Jersey: </label></td>
+          <td><input type="number" id="numeroJ" name="numeroJ"></td>
+          <td><label for = "Input10"> Posición: </label></td>
+          <td>
+            <select id="equipo" name="equipo">
+              <option value = "qb" > QB </option>
+              <option value = "wr"> WR </option>
+              <option value = "rb"> RB </option>
+              <option value = "lt"> LT </option>
+              <option value = "rt"> RT </option>
+              <option value = "rg"> RG </option>
+              <option value = "lg"> LG </option>
+              <option value = "c"> C </option>
+            </select>
+          </td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <input type = "button" id = "botonEviar" name = "botonEnviar" value = "Enviar">
+</body>
+</html>

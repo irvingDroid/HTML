@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+/* Estilo de header */
+header {
+    background-color: #23a2ff;
+    padding: 10px;
+    text-align: center;
+    font-size:25px;
+    color: white;
+}
+.italic{
+    font-style: italic;
+}
+.oblique{
+    font-style: oblique;
+}
+/* Crear 2 columnas con la misma posición en la fila */
+nav {
+    float: left;
+    width: 16.6%;
+    height: 300px;
+    /* only for demonstration, should be removed */
+    background: #0ccadd;
+    padding: 20px;
+}
+/* Clear floats after the columns */
+.section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Estilo de footer */
+footer {
+    background-color: #23a2ff;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+/* Responsive layout */
+@media (max-width: 600px) {
+    nav,
+    article {
+        width: 100%;
+        height: auto;
+    }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta http - equiv = "X - UA - Compatible" content = "IE = edge">
+        <meta name = "viewport" content = "width = device - width, initial - scale = 1.0">
+        <link rel="stylesheet" type = "text/css" href="pasteleriaCss.css">
+        <title> creaTupastel </title>   
+    </head>
+    <body>
+        <header>
+            <h1> Arma tu pastel </h1>
+        </header>
+    <form>
+        <section>
+            <nav>
+                <h3> Relleno </h3>
+                    <input type = "radio" id = "fresa" name = "relleno" value = "1">Fresa<br>
+                    <input type = "radio" id = "durazno" name = "relleno" value = "2">Durazno<br>
+                    <input type = "radio" id = "chocolate" name = "relleno" value = "3">Chocolate<br>
+                    <input type = "radio" id = "nuez" name = "relleno" value = "4">Nuez
+            </nav>
+        </section>
+
+        <section>
+            <nav>
+                <h3> Cubierta </h3>
+                <input type = "radio" id = "butter" name = "cubierta" value = "1">Buttercream<br>
+                <input type = "radio" id = "chan" name = "cubierta" value = "2">Chantilly<br>
+                <input type = "radio" id = "ganache" name = "cubierta" value = "3">Ganache<br>
+                <input type = "radio" id = "fondant" name = "cubierta" value = "4">Fondant<br>
+                <input type = "radio" id = "fondant" name = "cubierta" value = "5">Merengue
+            </nav>
+        </section>
+
+        <section>
+            <nav>
+                <h3> Toppings en la cubierta </h3>
+                <input type = "checkbox" id = "Chocolateliquido" name = "Chocolateli" value = "1">Chocolate liquido<br>
+                <input type = "checkbox" id = "durazno" name = "durazno" value = "2">Durazno<br>
+                <input type = "checkbox" id = "fresa" name = "fresa" value = "3">Fresa<br>
+                <input type = "checkbox" id = "kiwi" name = "kiwi" value = "4">Kiwi<br>
+                <input type = "checkbox" id = "chocolate" name = "chocolate" value = "5">Chocolate
+            </nav>
+        </section>
+
+        <section>
+            <nav>
+                <h3> Mensaje </h3>
+                <label for = "mensaje"> Mensaje: </label>
+                <input type = "text" id = "mensaje" name = "mensaje" maxlength=  "12">
+            </nav>
+        </section>
+
+        <section>
+            <nav>
+                <h3> Pastel Final </h3>
+                <img src = "" width = "150px" height = "150px">
+            </nav>
+        </section>
+
+        <section>
+            <nav>
+                <h3> Datos </h3>
+                <label for = "nombre"> Nombre:  </label>
+                <input type = "text" id = "nombre" name = "nombre"><br>
+                <label for = "correo"> Telefono: </label>
+                <input type = "tel" id = "telefono" name = "telefono"><br>
+                <label for = "correo"> Correo: </label>
+                <input type = "email" id = "correo" name = "correo"><br>
+                <label for = "fecha"> Fecha de entrega: </label>
+                <input type = "datetime-local" id = "fecha" name = "fecha">
+                <button name = "button"> Bake </button>   
+            </nav>
+        </section>
+    </form>
+    </body>
+</html>

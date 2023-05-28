@@ -1,0 +1,34 @@
+*{
+    margin: 1px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.barMenuContainer{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    height: 100vh;
+}
+
+.box-2{
+    width: 2200px;
+    height: 50px;
+    background-color: lightseagreen;
+}
+
+li{
+    display: inline;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+label{
+    color: black;
+}
+
+.boton{
+    background-color:lightseagreen;
+}

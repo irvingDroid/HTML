@@ -1,0 +1,34 @@
+*{
+    margin: 1px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box-1{
+    width: 400px;
+    height: 250px;
+    background-color: lightseagreen;
+    border: 2px solid black;
+}
+
+.items{
+    text-align: center
+}
+
+.inp{
+    width: 385px;
+}
+
+.boton{
+    background-color: aqua;
+}
+
+
+
